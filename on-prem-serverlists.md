@@ -6,8 +6,8 @@ This is how you can group together on premise servers reporting into Log Analyti
 You should have already installed the OMS agent on your servers and confirmed heartbeats are registering in the workspace you configured
 
 https://docs.microsoft.com/en-us/azure/azure-monitor/agents/agent-windows
-#### Blob CSV List
-Upload a CSV file to a blob storage account with two columns 'App' and 'ServerName'. Here you can list each server you wish to group together by function, i.e. databases, proxies, domain controllers, and so forth. 
+#### CSV List
+Upload a CSV file to a container storage with two columns 'App' and 'ServerName'. Here you can list each server you wish to group together by function, i.e. databases, proxies, domain controllers, and so forth. 
 
 #### SAS Token 
 
