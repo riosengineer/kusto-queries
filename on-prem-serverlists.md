@@ -27,5 +27,7 @@ Use the sas token URL in the query example like below (example given in query). 
         | where App == 'databases'
         | distinct Computer
 
-##
-You can also save the query as a function and name it appropriately, and then use the function to query the results, e.g. 'databases' function would now return all on premise databases and we can create a dashboard for these
+#### Function 
+You can also save the query as a function and name it appropriately, and then use the function to query the results, e.g. 'databases' function would now return all on premise databases and we can create a dashboard for these. For example: 
+
+    | where Computer in (databases)
